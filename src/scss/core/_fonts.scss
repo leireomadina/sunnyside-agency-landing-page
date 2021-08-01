@@ -1,0 +1,21 @@
+// main font
+@font-face {
+	font-family: 'Barlow';
+	src: url(../../fonts/Barlow-SemiBold.ttf) format('truetype');
+	font-style: normal;
+	font-weight: 600;
+}
+
+// secondary fonts
+@font-face {
+	font-family: 'Fraunces';
+	src: url(../../fonts/Fraunces-Bold.ttf) format('truetype');
+	font-style: normal;
+	font-weight: 700;
+}
+@font-face {
+	font-family: 'Fraunces';
+	src: url(../../fonts/Fraunces-Black.ttf) format('truetype');
+	font-style: normal;
+	font-weight: 900;
+}
