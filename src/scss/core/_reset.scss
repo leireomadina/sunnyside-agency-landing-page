@@ -1,5 +1,24 @@
+// general reset styles
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
+// resets and normalizes buttons
+button {
+  // changes the font styles in all browser and removes margin in Safari and Firefox
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  // shows the overflow in Edge
+  overflow: visible; 
+  // removes the inheritance of text transform in Firefox
+  text-transform: none; 
+  // corrects the inability to style clickable types in iOS and Safari
+  -webkit-appearance: button;
+  background-color: transparent;
+  border: 0;
+}
+
