@@ -1,4 +1,11 @@
 // media queries
+
+@mixin small() {
+  @media (min-width: 500px) {
+    @content;
+  }
+}
+
 @mixin medium() {
   @media (min-width: 768px) {
     @content;
@@ -7,6 +14,12 @@
 
 @mixin large() {
   @media (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin largexl() {
+  @media (min-width: 1440px) {
     @content;
   }
 }
