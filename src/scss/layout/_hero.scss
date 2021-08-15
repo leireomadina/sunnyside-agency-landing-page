@@ -1,5 +1,39 @@
-.page__hero {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+.hero {
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+  }
+
+  &__title {
+    font-family: $font-secondary;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: $color-font-bright;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    line-height: 1.25;
+  }
+
+  &__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    @media all and (min-width: 500px) {
+      min-height: 35rem;
+    }
+  }
+
+  &__icon {
+    height: 100px;
+    width: auto;
+    margin-top: 2.5rem;
+    animation-name: updown;
+    animation-duration: 2s;
+    animation-iteration-count: 4;
+    animation-timing-function: ease;
+  }
 }

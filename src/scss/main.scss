@@ -1,4 +1,5 @@
 // core
+@import 'core/animations';
 @import 'core/fonts';
 @import 'core/mixins';
 @import 'core/variables';
@@ -6,6 +7,7 @@
 @import 'core/utils';
 
 // components
+@import 'components/picture';
 @import 'components/links';
 
 // layout
